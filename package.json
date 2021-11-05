@@ -8,12 +8,13 @@
     "ts:node": "ts-node src/index.ts",
     "build": "tsc",
     "clean": "rm -rf build",
-    "dev":"nodemon"
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/express-handlebars": "^5.3.1",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
     "mongoose": "^6.0.12"
